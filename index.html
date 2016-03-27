@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Responsive Table Template</title>
+
+<!--below is a script which allows IE 8 to understand HTML 5 elements.-->
+<!--[if lt IE 9]>
+	<script>
+		var elementsArray = ['abbr', 'article', 'aside', 'audio', 'bdi', 'canvas', 'data', 'datalist', 'details', 'figcaption', 'figure', 'footer', 'header', 'main', 'mark', 'meter', 'nav', 'output', 'progress', 'section', 'summary', 'template', 'time', 'video'];
+		var len = elementsArray.length;
+		for(i = 0; i < len; i++){
+			document.createElement(elementsArray[i]);
+		}
+	</script>
+<![endif]-->
+
+<!--CSS style sheets are here-->
+<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+	<header>
+		<h1>Responsive Table Template</h1>
+	</header>
+	<main>
+		<table>
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Address</th>
+					<th>Phone #</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td data-label="ID:">1</td>
+					<td data-label="First Name:">Kristin</td>
+					<td data-label="Last Name:">Vaughn</td>
+					<td data-label="Address:">123 Example Road Ypsilanti, MI 48197</td>
+					<td data-label="Phone #:">555-555-5555</td>
+					<td data-label="Email:">something@example.com</td>
+				</tr>
+				<tr>
+					<td data-label="ID:">2</td>
+					<td data-label="First Name:">Cooper</td>
+					<td data-label="Last Name:">Vaughn</td>
+					<td data-label="Address:">234 Example Road Ann Arbor, MI 48108</td>
+					<td data-label="Phone #:">123-456-7890</td>
+					<td data-label="Email:">hello@example.com</td>
+				</tr>
+				<tr>
+					<td data-label="ID:">3</td>
+					<td data-label="First Name:">Lee</td>
+					<td data-label="Last Name:">McClelland</td>
+					<td data-label="Address:">999 Some Road Ypsilanti, MI 48198</td>
+					<td data-label="Phone #:">333-444-5555</td>
+					<td data-label="Email:">myemail@example.com</td>
+				</tr>
+				<tr>
+					<td data-label="ID:">4</td>
+					<td data-label="First Name:">Leia</td>
+					<td data-label="Last Name:">Vaughn</td>
+					<td data-label="Address:">123 Example Road Ypsilanti, MI 48197</td>
+					<td data-label="Phone #:">555-555-5555</td>
+					<td data-label="Email:">something@example.com</td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
+</body>
+</html>
