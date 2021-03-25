@@ -1,6 +1,7 @@
 /*general*/
 article, aside, figure, footer, header, main, menu, nav, section {
 	display: block;
+	box-sizing: border-box;
 }
 body, h1, h2, p, ul, ol, li, dd, dl {
 	margin: 0; padding: 0;
